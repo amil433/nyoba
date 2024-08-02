@@ -2191,7 +2191,7 @@ let mq1 = m1 + '@s.whatsapp.net'
 let ownernya = owner + '@s.whatsapp.net'
 let me = m.sender
 let ments = [mq1, ownernya, me]
-RezzHost.sendMessage(mq1, {text:`*───❖》${ownername}《❖───*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*📦 Pesananmu Datang 📦*\n*Harga : ${m2}*\n*Hari : ${hariini}*\n*Tanggal : ${tanggal}*\n*Jam : ${jam}*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*[+] Domain : ${m3}*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*_Note : Tutup ( Sensor ) Domain Anda
+RezzHost.sendMessage(mq1, {text:`*───❖》${ownername}《❖───*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*📦 Pesananmu Datang 📦*\n*Harga : ${m2}*\n*Hari : ${hariini}*\n*Tanggal : ${tanggal}*\n*Jam : ${time}*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*[+] Domain : ${m3}*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*_Note : Tutup ( Sensor ) Domain Anda
  Dan Jangan Sampai Orang Lain Melihat 
  Atau Tidak Nanti Domain Anda Bakal Kena Ddos Attack_*\n\n\n\n*© ᴡᴀʏꜱɢᴀɴᴢ ʜᴏꜱᴛ*`}, m) 
 }
