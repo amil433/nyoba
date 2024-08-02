@@ -1,0 +1,153 @@
+{
+  "users": {
+    "628568773831@s.whatsapp.net": {
+      "name": "WaysGanz Hosting",
+      "limit": 10000,
+      "balance": 10000000,
+      "premium": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "claim": 1
+    },
+    "628568773831@s.whatsapp.net": {
+      "name": "WaysGanz Host",
+      "limit": 31000,
+      "balance": 50000010000,
+      "premium": true,
+      "afkTime": -1,
+      "afkReason": "",
+      "claim": 1
+    },
+    "6281312544437@s.whatsapp.net": {
+      "name": "WaysGanz REAL",
+      "limit": 10,
+      "balance": 10000,
+      "premium": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "claim": 1
+    }
+  },
+  "chats": {
+    "120363296965961902@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "62895403880703@s.whatsapp.net": {
+      "mute": false,
+      "ghost": false
+    },
+    "6287782792843@s.whatsapp.net": {
+      "mute": false,
+      "ghost": false
+    },
+    "6282321559392@s.whatsapp.net": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363282850569479@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363210659814466@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363288889442891@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363287089508401@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363255597185743@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363228020673598@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363285904912949@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363289023181466@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363287989717395@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363227920787835@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363236474127888@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363273696482816@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363264249973765@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363210236963081@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363261958062327@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363226579762112@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363264853310165@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363273680272612@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363261589676951@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363241195239598@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363174344519172@g.us": {
+      "mute": false,
+      "ghost": false
+    },
+    "120363246550241355@g.us": {
+      "mute": false,
+      "ghost": false
+    }
+  },
+  "database": {},
+  "game": {},
+  "settings": {
+    "628568773831@s.whatsapp.net": {
+      "status": 0,
+      "autobio": false,
+      "autoread": false
+    },
+    "hadiah": [],
+    "hadiahkadaluwarsa": [],
+    "claimprem": [],
+    "claimpremkadaluwarsa": []
+  },
+  "others": {},
+  "sticker": {},
+  "anonymous": {}
+}
