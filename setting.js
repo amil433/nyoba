@@ -54,7 +54,7 @@ global.loc = "1"
 global.dana = "082288783972"
 global.ovo = "082288783972"
 global.gopay = "082288783972"
-global.qris = "https://telegra.ph/file/0ede8bf86f3b29f4591c9.jpg"
+global.qris = "https://telegra.ph/file/7ce6191a8821fe6efd463.jpg"
 
 //limit & balance
 global.limitawal = 10
