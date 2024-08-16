@@ -5525,7 +5525,7 @@ const { imageMessage } = await generateWAMessageContent({
 }
 break
 
-case'zanz':{
+case'bot':{
 if (!text) return reply(`Ya Kamu Kah Panggil Aku? Kenapa Panggil Zanz Bang`)
 function checkText(text) {
 const lowerCaseText = text.toLowerCase();
