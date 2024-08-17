@@ -5,7 +5,7 @@ const chalk = require('chalk')
 global.baileys = require('@whiskeysockets/baileys')
 global.usePairingCode = true
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = 'DHA BOTXZ' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'YUDHA PERDANA' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.owner = ['6282287486762'] // ubah aja pake nomor lu
 global.versionbot = "V.5.0.0"
 global.owner2 = '6282287486762'
