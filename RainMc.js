@@ -1021,24 +1021,9 @@ description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖦
 id: '.groupmenu'
 },
 {
-title: '>!< 𝗠𝗘𝗡𝗨 𝗔𝗜',
-description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖠𝗂`, 
-id: '.aimenu'
-},
-{
-title: '>!< 𝗠𝗘𝗡𝗨 𝗣𝗔𝗡𝗘𝗟', 
-description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖯𝖺𝗇𝖾𝗅`, 
-id: '.panelmenu'
-},
-{
 title: '>!< 𝗠𝗘𝗡𝗨 𝗦𝗧𝗢𝗥𝗘', 
 description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖲𝗍𝗈𝗋𝖾`, 
 id: '.storemenu'
-},
-{
-title: '>!< 𝗠𝗘𝗡𝗨 𝗗𝗢𝗠𝗔𝗜𝗡', 
-description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖣𝗈𝗆𝖺𝗂𝗇`,
-id: '.domainmenu'
 },
 {
 title: '>!< 𝗠𝗘𝗡𝗨 𝗚𝗔𝗠𝗘', 
@@ -1062,21 +1047,7 @@ let listMessage = {
     title: '𝖫𝖨𝖲𝖳 𝖬𝖤𝖭𝖴',
     sections
 };
-	
-let prep[{
-title: 'LIST STORE',
-highlight_label: ``,
-rows: [{
-title: 'DIAMOND FREEFIRE',
-description: `-`, 
-id: '.dmff'
-},
-      ]
-}]
-let listMessage = {
-    title: '𝖫𝖨𝖲𝖳 STORE',
-    prep
-};	
+
 
 let msg = generateWAMessageFromContent(m.chat, {
  viewOnceMessage: {
