@@ -1013,11 +1013,6 @@ id: '.mainmenu'
 {
 title: '>!< 𝗠𝗘𝗡𝗨 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗',
 description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽`, 
-id: '.downloadmenu'
-},
-{
-title: '>!< 𝗠𝗘𝗡𝗨 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗',
-description: `𝖬𝖾𝗇𝖺𝗆𝗉𝗂𝗅𝗄𝖺𝗇 𝖬𝖾𝗇𝗎 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽`, 
 id: '.searchmenu'
 },
 {
@@ -1067,7 +1062,21 @@ let listMessage = {
     title: '𝖫𝖨𝖲𝖳 𝖬𝖤𝖭𝖴',
     sections
 };
-
+	
+let prep[{
+title: 'LIST STORE',
+highlight_label: ``,
+rows: [{
+title: 'DIAMOND FREEFIRE',
+description: `-`, 
+id: '.dmff'
+},
+      ]
+}]
+let listMessage = {
+    title: '𝖫𝖨𝖲𝖳 STORE',
+    prep
+};	
 
 let msg = generateWAMessageFromContent(m.chat, {
  viewOnceMessage: {
