@@ -1,10 +1,10 @@
 {
   "users": {
-    "6287486762@s.whatsapp.net": {
+    "6282287486762@s.whatsapp.net": {
       "name": "WaysGanz Hosting",
-      "limit": 10000,
-      "balance": 10000000,
-      "premium": false,
+      "limit": 9999999999,
+      "balance":9999999999999999999,
+      "premium": true,
       "afkTime": -1,
       "afkReason": "",
       "claim": 1
