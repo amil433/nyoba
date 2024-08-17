@@ -8933,6 +8933,86 @@ case 'domain7': {
              else reply(`gagal membuat subdomain\nMsg: ${e['error']}`)
            }); }
            break
+//==============BATAS JUALAN SAYA=================//
+case 'dmff': case 'listdmff': case'ff':{
+await RezzHost.sendMessage(m.chat, { react: { text: "⏳",key: m.key,}})  
+const url = `https://telegra.ph/file/7506187f999638fb12668.jpg`
+async function image(url) {
+const { imageMessage } = await generateWAMessageContent({
+    image: {
+      url
+    }
+  }, {
+    upload: RezzHost.waUploadToServer
+  })
+  return imageMessage
+}
+
+
+    let msg = generateWAMessageFromContent(
+      m.chat,
+      {
+        viewOnceMessage: {
+          message: {
+            interactiveMessage: {
+              body: {},
+              carouselMessage: {
+                cards: [
+                  {
+                    header: {
+                      imageMessage: await image(url),
+                      hasMediaAttachment: true,
+                    },
+                    body: { text: `
+*50    DIAMONDS    Rp7.000*
+*70    DIAMONDS    Rp10.000*
+*80    DIAMONDS    Rp11.000*
+
+*100    DIAMONDS    Rp14.000*
+*120    DIAMONDS    Rp16.500*
+*140    DIAMONDS    Rp19.000*
+*145    DIAMONDS    Rp20.000*
+*170    DIAMONDS    Rp25.000*
+*210    DIAMONDS    Rp30.000*
+*300    DIAMONDS    Rp42.000*
+*360    DIAMONDS    Rp50.000*
+*425    DIAMONDS    Rp57.000*
+*495    DIAMONDS    Rp66.000*
+*520    DIAMONDS    Rp70.000*
+*600    DIAMONDS    Rp80.000*
+*655    DIAMONDS    Rp90.000*
+*720    DIAMONDS    Rp94.000*
+
+*Level Up            Rp16.000*
+*Boyaah Pass    Rp45.000*
+*M.Mingguan    Rp29.000*
+*M.Bulanan        Rp85.000*
+` },
+                    nativeFlowMessage: {
+                      buttons: [
+                        {
+                          name: "cta_url",
+  buttonParamsJson: `{"display_text":"ORDER","url":"https://wa.me/${owner}","merchant_url":"https://www.google.com"}`,
+                        },
+                      ],
+                    },
+                  },
+                ],
+                messageVersion: 1,
+              },
+            },
+          },
+        },
+      },
+      {}
+    );
+
+    await RezzHost.relayMessage(msg.key.remoteJid, msg.message, {
+      messageId: msg.key.id,
+    });
+}
+break		
+		
 //=================================================//
 default:
 if (budy.startsWith('=>')) {
